@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .about-hero {
+            background-color: #143c64;
+            color: white;
+            padding: 50px 0;
+        }
+
+        .about-hero h1 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .about-hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .about-content {
+            padding: 50px 0;
+        }
+
+        .about-content h2 {
+            font-size: 24px;
+            color: #143c64;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .about-content p, .about-content ul {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .about-content ul li {
+            margin-bottom: 10px;
+            padding-left: 15px;
+        }
+
+        .team {
+            background-color: #f1f1f1;
+            padding: 50px 0;
+        }
+
+        .team h2 {
+            font-size: 28px;
+            color: #143c64;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .team p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .team .row .col-md-4 {
+            text-align: center;
+        }
+
+        .team .row .col-md-4 img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .team .row .col-md-4 h4 {
+            font-size: 20px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .team .row .col-md-4 p {
+            font-size: 14px;
+            color: #777;
+        }

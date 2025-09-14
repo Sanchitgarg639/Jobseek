@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+        *{
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif; background-color: #f8f9fa; color: #333;
+        }
+        a{
+            text-decoration: none; color: #fff;
+        }
+        .jobpost-hero {
+            background-color: #143c64; color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .jobpost-hero h1 {
+            font-size: 36px; font-weight: 600;
+        }
+        .jobpost-hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .job-container {
+            padding: 30px 0;
+        }
+        .job-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .job-card:hover { transform: translateY(-5px); }
+        .job-card h3 {
+            font-size: 20px; font-weight: 600;
+            color: #143c64;
+        }
+        .job-card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .btn-apply {
+            background-color: #CBB26A; color: #143c64;
+            border: none; border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+        .btn-apply:hover {
+            background-color: #143c64; color: white;
+        }
+        .heading{
+            font-size: 25px;  font-weight: 600;  color: #143c64;
+            margin: 20px 100px 0 100px; padding-bottom: 6px;
+            border-bottom: 3px solid #143c64;
+        }
+		.searchdiv1{
+            position: -webkit-sticky;  position: sticky;  top: 0;
+  			display: flex;  justify-content: center; align-items: center;
+			background-color: #143c64;
+  			width: 100%;  height: 100px;
+            border: 0px solid white;
+        }
+        .searchdiv1 .searchbar{
+            width: 800px;  height: 50px;  
+            color: lightgrey;  font-size: 15px;  font-family: 'Montserrat', sans-serif;
+            padding-left: 20px;
+            border: 0px; border-top-left-radius: 5px;  border-bottom-left-radius: 5px;
+        }
+        .searchdiv1 .searchbutton{
+            cursor: pointer;
+            width: 80px;  height: 50px;
+            border: 0px;  border-top-right-radius: 5px;  border-bottom-right-radius: 5px;
+        }
+		@media (max-width: 900px){
+            .searchdiv1{ height: 80px; }
+            .searchdiv1 .searchbar{ width: 600px; }
+        }
+		@media (max-width: 750px){
+            .searchdiv1 .searchbar{ width: 500px; }
+            .searchdiv1 .searchbutton{ width: 60px; }
+		}
+        @media (max-width: 670px){
+            .searchdiv1 .searchbar{ width: 400px; }
+            .searchdiv1 .searchbutton{ width: 50px; }
+		}      
+        @media (max-width: 530px){
+            .searchdiv1 .searchbar{ width: 300px; }
+            .searchdiv1 .searchbutton{ width: 40px; }
+		}
+        @media(max-width: 424px){
+            .searchdiv1 .searchbar{ width: 200px; font-size: 13px; }
+		}
+        @media(max-width: 320px){ 
+            .searchdiv1 .searchbar{
+            width: 170px;  height: 40px;  font-size: 10px;
+            padding-left: 10px;
+            }
+            .searchdiv1 .searchbutton{ width: 30px;  height: 40px; }
+		}
